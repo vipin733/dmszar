@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->uuid('uuid');
             $table->string('name');
             $table->string('email')->unique();
-            $table->biginteger('mobile_no')->unique();
+            $table->string('mobile_no')->unique();
             $table->string('password');
             $table->string('email_token')->nullable();
             $table->boolean('active')->default(0);

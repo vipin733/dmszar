@@ -31,7 +31,7 @@ class Kernel extends ConsoleKernel
          $schedule->command('backup:clean')->daily()->at('14:00');
          $schedule->command('backup:run')->daily()->at('15:00');
          $schedule->command('view:clear')->daily()->at('14:30');
-          $schedule->command('sitemap:generate')->daily();
+        $schedule->command('sitemap:generate')->daily();
     }
 
     /**

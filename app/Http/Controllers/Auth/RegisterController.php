@@ -64,7 +64,7 @@ class RegisterController extends Controller
             'plan'                 => 'required|integer',
             'school_name'          => 'required',
             'mobile_no'            => 'required|digits:10|unique:users',
-            'g-recaptcha-response' => 'required|recaptcha',
+            // 'g-recaptcha-response' => 'required|recaptcha',
         ]);
     }
 

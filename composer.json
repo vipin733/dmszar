@@ -17,7 +17,7 @@
         "greggilbert/recaptcha": "^2.2",
         "intervention/image": "^2.3",
         "laracasts/flash": "^3.0",
-        "laravel/framework": "5.4.*",
+        "laravel/framework": "6.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4",
         "league/flysystem-aws-s3-v3": "^1.0",
